@@ -110,6 +110,7 @@ Contributing to production codebases I don't own — same process every time: re
 | [#2199](https://github.com/papermark/papermark/pull/2199) | [papermark](https://github.com/papermark/papermark) | Named, reusable watermark presets — new Prisma model, API, UI |
 | [#2200](https://github.com/papermark/papermark/pull/2200) | [papermark](https://github.com/papermark/papermark) | Documented required env vars that were missing from `.env.example` |
 | [#3064](https://github.com/lukevella/rallly/pull/3064) | [rallly](https://github.com/lukevella/rallly) | Fixed an SMTP auth bug causing silent email-delivery failures |
+| [#453](https://github.com/apache/fineract-backoffice-ui/pull/453) | [fineract-backoffice-ui](https://github.com/apache/fineract-backoffice-ui) (Apache) | Migrated 13 specs Karma → Vitest, verified combined test totals unchanged |
 
 <br/>
 
