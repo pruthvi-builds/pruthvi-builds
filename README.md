@@ -60,6 +60,8 @@
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white)
@@ -81,11 +83,15 @@ Design isn't the finish line — every one of these went from user flow to deplo
 | Project | What it does | Live | Code |
 |---|---|---|---|
 | **DocketPilot** | Multi-tenant SaaS deadline tracker for law firms — per-tenant isolation, JWT auth, Paddle billing webhooks | [docketpilot-app.vercel.app](https://docketpilot-app.vercel.app) | [repo](https://github.com/pruthvi-builds/docketpilot-app) |
+| **pruthvi-cms** | Self-hosted CMS for this portfolio — single-admin JWT auth, Markdown post CRUD, Prisma 7 driver adapters, Postgres | [pruthvi-cms.vercel.app](https://pruthvi-cms.vercel.app) | [repo](https://github.com/pruthvi-builds/pruthvi-cms) |
+| **RepoChat** | Chat with any GitHub repo via a real RAG pipeline — chunked embeddings, HNSW cosine retrieval, cited file/line sources, streamed live | [repochat.vercel.app](https://repochat.vercel.app) | [repo](https://github.com/pruthvi-builds/repochat) |
+| **ApplyTrack** | Job tracker with a deterministic, local resume-to-JD match scorer — no external AI API — backed by 47 automated tests + CI | [applytrack-alpha.vercel.app](https://applytrack-alpha.vercel.app) | [repo](https://github.com/pruthvi-builds/applytrack) |
+| **DesignCritique AI** | Upload a UI screenshot, get an AI-powered usability heuristic evaluation | [designcritique-ai.vercel.app](https://designcritique-ai.vercel.app) | [repo](https://github.com/pruthvi-builds/designcritique-ai) |
+| **llmgate** | Self-hosted LLM gateway — multi-provider routing with fallback, response caching, per-key rate limiting, cost/token tracking | — | FastAPI · fully offline-testable |
+| **ragcheck** | Agentic RAG system with a built-in evaluation harness — retrieval recall, citation grounding, faithfulness scoring | — | BM25 · Claude tool-use agent loop |
 | **Lead Engine** | Full-stack lead-gen SaaS with billing and LLM extraction | [lead-engine-w523.onrender.com](https://lead-engine-w523.onrender.com) | [repo](https://github.com/pruthvi-builds/lead-engine) |
 | **FlowCare** | Real-time queue & appointment platform — versioned REST API, Socket.io live dashboards, QR check-in | [flowcare-1aan.onrender.com](https://flowcare-1aan.onrender.com) | [repo](https://github.com/pruthvi-builds/flowcare-deploy) |
 | **Sanguard** | Blood bank operations dashboard | [aesthetic-sable-ead5aa.netlify.app](https://aesthetic-sable-ead5aa.netlify.app) | [repo](https://github.com/pruthvi-builds/sanguard) |
-| **RepoChat** | Chat with any GitHub repo via a real RAG pipeline — chunked embeddings, HNSW cosine retrieval, cited file/line sources, streamed live | — | Next.js 16 · pgvector · Gemini API |
-| **ApplyTrack** | Job tracker with a deterministic, local resume-to-JD match scorer — no external AI API — backed by 47 automated tests + CI | — | Next.js 16 · Prisma 7 · PostgreSQL |
 | **EduMatrix Outreach** | B2B outreach automation with Gmail/Sheets API integration, rate-limiting, and reply detection | — | Node.js · Google OAuth 2.0 |
 
 <br/>
@@ -102,6 +108,7 @@ Contributing to production codebases I don't own — same process every time: re
 | [#304](https://github.com/pdovhomilja/nextcrm-app/pull/304) | [nextcrm-app](https://github.com/pdovhomilja/nextcrm-app) | Fixed a duplicate-webhook-delivery bug in Calendly re-subscribe |
 | [#250](https://github.com/Snouzy/workout-cool/pull/250) | [workout-cool](https://github.com/Snouzy/workout-cool) | Shareable workout-summary image, generated client-side |
 | [#2199](https://github.com/papermark/papermark/pull/2199) | [papermark](https://github.com/papermark/papermark) | Named, reusable watermark presets — new Prisma model, API, UI |
+| [#2200](https://github.com/papermark/papermark/pull/2200) | [papermark](https://github.com/papermark/papermark) | Documented required env vars that were missing from `.env.example` |
 | [#3064](https://github.com/lukevella/rallly/pull/3064) | [rallly](https://github.com/lukevella/rallly) | Fixed an SMTP auth bug causing silent email-delivery failures |
 
 <br/>
