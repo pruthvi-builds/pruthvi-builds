@@ -91,7 +91,7 @@ Design isn't the finish line — every one of these went from user flow to deplo
 | **ragcheck** | Agentic RAG system with a built-in evaluation harness — retrieval recall, citation grounding, faithfulness scoring | — | BM25 · Claude tool-use agent loop |
 | **Lead Engine** | Full-stack lead-gen SaaS with billing and LLM extraction | [lead-engine-w523.onrender.com](https://lead-engine-w523.onrender.com) | [repo](https://github.com/pruthvi-builds/lead-engine) |
 | **FlowCare** | Real-time queue & appointment platform — versioned REST API, Socket.io live dashboards, QR check-in | [flowcare-1aan.onrender.com](https://flowcare-1aan.onrender.com) | [repo](https://github.com/pruthvi-builds/flowcare-deploy) |
-| **Sanguard** | Blood bank operations dashboard | [aesthetic-sable-ead5aa.netlify.app](https://aesthetic-sable-ead5aa.netlify.app) | [repo](https://github.com/pruthvi-builds/sanguard) |
+| **Sanguard** | Blood bank operations dashboard | [sanguard.netlify.app](https://sanguard.netlify.app) | [repo](https://github.com/pruthvi-builds/sanguard) |
 | **EduMatrix Outreach** | B2B outreach automation with Gmail/Sheets API integration, rate-limiting, and reply detection | — | Node.js · Google OAuth 2.0 |
 
 <br/>
